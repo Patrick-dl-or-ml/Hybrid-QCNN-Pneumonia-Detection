@@ -1,0 +1,6 @@
+chest_xray/
+__MACOSX/
+*.csv
+models/
+.DS_Store
+.venv/
