@@ -118,4 +118,4 @@ for round_num in range(1, NUM_ROUNDS + 1):
             f.write(
                 f"{round_num},{model_name},{history.history['loss'][-1]:.4f},{history.history['val_loss'][-1]:.4f},{test_acc:.4f},{test_auc:.4f}\n")
 
-print(f"\n🎉 恭喜！30轮实验跑完了，可以拿 {CSV_FILENAME} 里的数据去算 p-value 写论文了！")
+print(f"\n🎉 おめでとう！")
