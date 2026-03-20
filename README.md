@@ -28,6 +28,6 @@ We conducted 30 independent training rounds to ensure statistical significance.
 If you find this reproduction helpful, please cite the original paper:
 
 > **Title**: A Classical-Quantum Convolutional Neural Network for Detecting Pneumonia from Chest Radiographs  
-> **Authors**: [作者名字，例如：M. S. Sarma, et al.]  
+> **Authors**: [Viraj Kulkarni, Sanjesh Pawale, Amit Kharat]  
 > **Journal/Source**: arXiv:2202.10452 (2022)  
 > **Link**: [https://arxiv.org/abs/2202.10452](https://arxiv.org/abs/2202.10452)
