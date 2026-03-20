@@ -7,11 +7,13 @@ This project implements a hybrid neural network that integrates a **Variational 
 
 ## 🏗 Architecture
 The core innovation is replacing the penultimate dense layer with a 2-qubit quantum layer. 
-- [cite_start]**Quantum Layer**: 2 qubits, Angle Embedding ($R_x$), and 3 layers of alternating CNOT gates (Figure 3 in the paper)[cite: 143, 174].
-- [cite_start]**Fair Comparison**: Both classical and hybrid models are constrained to the same number of trainable parameters (6) in the target layer[cite: 133].
+- **Quantum Layer**: 2 qubits, Angle Embedding ($R_x$), and 3 layers of alternating CNOT gates (as shown in Figure 3 of the paper).
+- **Fair Comparison**: Both classical and hybrid models are constrained to the same number of trainable parameters (6) in the target layer.
 
 ## 📊 Benchmark Results (30 Rounds)
 We conducted 30 independent training rounds to ensure statistical significance.
+
+![Performance Comparison](performance_comparison.png)
 
 | Metric | Classical CNN | Hybrid QCNN | p-value |
 | :--- | :--- | :--- | :--- |
@@ -20,14 +22,14 @@ We conducted 30 independent training rounds to ensure statistical significance.
 
 ## 🚀 How to Run
 1. **Environment**: `pip install -r requirements.txt`
-2. [cite_start]**Data**: Download the dataset from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)[cite: 315].
+2. **Data**: Download the dataset from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
 3. **Training**: Run `python full_30_rounds.py`
 4. **Analysis**: Run `python analyze_results.py`
-## 📚 References
 
+## 📚 References
 If you find this reproduction helpful, please cite the original paper:
 
 > **Title**: A Classical-Quantum Convolutional Neural Network for Detecting Pneumonia from Chest Radiographs  
-> **Authors**: [Viraj Kulkarni, Sanjesh Pawale, Amit Kharat]  
-> **Journal/Source**: arXiv:2202.10452 (2022)  
+> **Authors**: Viraj Kulkarni, Sanjesh Pawale, Amit Kharat  
+> **Source**: arXiv:2202.10452 (2022)  
 > **Link**: [https://arxiv.org/abs/2202.10452](https://arxiv.org/abs/2202.10452)
