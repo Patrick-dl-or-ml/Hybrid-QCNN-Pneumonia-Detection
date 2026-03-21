@@ -1,0 +1,12 @@
+
+tensorflow>=2.15.0
+keras>=2.15.0
+
+pennylane>=0.35.0
+
+numpy<2.0.0
+pandas
+scipy
+scikit-learn
+
+matplotlib
