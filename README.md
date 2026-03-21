@@ -24,7 +24,7 @@ We conducted 30 independent training rounds to ensure statistical significance.
 1. **Environment**: `pip install -r requirements.txt`
 2. **Data**: Download the dataset from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
 3. **Training**: Run `python full_30_rounds.py`
-4. **Analysis**: Run `python analyze_results.py`
+4. **Analysis**: Run `python Drawing.py`
 
 ## 📚 References
 If you find this reproduction helpful, please cite the original paper:
